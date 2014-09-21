@@ -39,7 +39,7 @@
                 <StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="Time to cost:" Width="200" VerticalAlignment="Center" />
-                        <TextBox Width="200" Text="{Binding TimeCost,Mode=TwoWay}"></TextBox>
+                        <TextBox Width="200" Text="{Binding TimeCost,Mode=TwoWay}" InputScope="Digits"></TextBox>
                     </StackPanel>
                     <TextBlock Text="{Binding Result}" />
                 </StackPanel>
@@ -48,11 +48,11 @@
                 <StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="Your year salary:" Width="200" VerticalAlignment="Center" />
-                        <TextBox Width="200" Text="{Binding YearSalary,Mode=TwoWay}"></TextBox>
+                        <TextBox Width="200" Text="{Binding YearSalary,Mode=TwoWay}" InputScope="Digits"></TextBox>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="Min to switch work:" Width="200" VerticalAlignment="Center" />
-                        <TextBox Width="200" Text="{Binding MinToSwitchWork,Mode=TwoWay}"></TextBox>
+                        <TextBox Width="200" Text="{Binding MinToSwitchWork,Mode=TwoWay}" InputScope="Digits"></TextBox>
                     </StackPanel>
                 </StackPanel>
 
